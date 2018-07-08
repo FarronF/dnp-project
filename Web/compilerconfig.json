@@ -1,0 +1,14 @@
+﻿[
+  {
+    "outputFile": "css/gridlex/gridlex.css",
+    "inputFile": "css/gridlex/gridlex.scss"
+  },
+  {
+    "outputFile": "css/faz-utilities/faz-utilities.css",
+    "inputFile": "css/faz-utilities/faz-utilities.scss"
+  },
+  {
+    "outputFile": "css/app.css",
+    "inputFile": "css/app.scss"
+  }
+]

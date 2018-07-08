@@ -1,0 +1,6 @@
+{
+  "name": "myproject",
+  "dependencies": {
+    "faz-utilities": "~0.0.1"
+  }
+}

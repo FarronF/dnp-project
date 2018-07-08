@@ -1,0 +1,29 @@
+{
+  "name": "faz-utilities",
+  "version": "0.0.1",
+  "authors": [
+    "Farron Flaherty <farron.flaherty@version1.com>",
+    "Farron Flaherty <farronflaherty@gmail.com>"
+  ],
+  "description": "Simple css files for helping with front end development",
+  "main": "faz-utilities.css",
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "_release": "0.0.1",
+  "_resolution": {
+    "type": "version",
+    "tag": "0.0.1",
+    "commit": "36b9d37d2b8d67ec9fe844b4afc71ca51868a7a4"
+  },
+  "_source": "https://farronv1@bitbucket.org/farronv1/faz-utilities.git",
+  "_target": "~0.0.1",
+  "_originalSource": "faz-utilities",
+  "_direct": true
+}

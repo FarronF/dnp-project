@@ -1,0 +1,56 @@
+﻿@{
+    Layout = "~/_SiteLayout.cshtml";
+    Page.Title = "Portfolio";
+}
+
+
+
+<div id="main-images">
+    <div class="grid-noGutter_large-3_medium-2_small-1">
+        <div class="col cell main-page-image-holder">
+            <a href="~/Project-Moby.cshtml">
+                @Helpers.MainPageImageHelper("img/main/main-moby", "Moby")
+            </a>
+        </div>
+        <div class="col cell main-page-image-holder">
+            <a href="~/Project-Balance-Bike.cshtml">
+                @Helpers.MainPageImageHelper("img/main/main-balance", "Balance Bike")
+            </a>
+        </div>
+        <div class="col cell main-page-image-holder">
+            <a href="~/Project-Neon.cshtml">
+                @Helpers.MainPageImageHelper("img/main/main-neon", "Neon")
+            </a>
+        </div>
+        <div class="col cell main-page-image-holder">
+            <a href="~/Project-Glider.cshtml"> 
+                @Helpers.MainPageImageHelper("img/main/main-glider", "Glider Refresh")
+            </a>
+        </div>
+        <div class="col cell main-page-image-holder">
+            <a href="~/Project-Glider.cshtml">
+                @Helpers.MainPageImageHelper("img/main/main-north-face", "North Face")
+            </a>
+        </div>
+        <div class="col cell main-page-image-holder">
+            <a href="~/Project-Onepoint.cshtml">
+                @Helpers.MainPageImageHelper("img/main/main-onepoint", "Onepoint")
+            </a>
+        </div>
+        <div class="col cell main-page-image-holder">
+            <a href="~/Project-Smoothie-King.cshtml">
+                @Helpers.MainPageImageHelper("img/main/main-smoothie-king", "Smoothie King")
+            </a>
+        </div>
+        <div class="col cell main-page-image-holder">
+            <a href="~/Project-Taylor-Prunes.cshtml">
+                @Helpers.MainPageImageHelper("img/main/main-taylor", "Taylor Prunes")
+            </a>
+        </div>
+        <div class="col cell main-page-image-holder">
+            <a href="~/Project-Taylor-Prunes.cshtml">
+                @Helpers.MainPageImageHelper("img/main/main-7even", "7even")
+            </a>
+        </div>
+    </div>
+</div>
