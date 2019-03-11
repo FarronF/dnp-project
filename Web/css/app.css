@@ -21,6 +21,9 @@
   transform: translateY(-50%); }
 
 /*#endregion*/
+.flex-center-vertical {
+  align-self: center; }
+
 @font-face {
   font-family: "Futura-Medium";
   src: url("../fonts/FuturaTEEMed.ttf"); }
@@ -81,6 +84,9 @@ a {
 
 .text-center {
   text-align: center; }
+
+.text-left {
+  text-align: left; }
 
 @media only screen and (min-width: 45.0625em) {
   .text-center_medium-up {
@@ -400,4 +406,3 @@ body {
       width: 75rem; } }
 
 /* csslint ignore:end */
-

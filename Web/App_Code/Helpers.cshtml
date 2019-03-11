@@ -1,10 +1,10 @@
 ﻿@helper MainPageImageHelper(string defaultImagePath, string alt)
 {
-    <img srcset="@(defaultImagePath).jpg 1x,
-                    @(defaultImagePath)_high-res.jpg 2x"
+    <img srcset="@(defaultImagePath).png 1x,
+                    @(defaultImagePath)_high-res.png 2x"
          sizes="(max-width: 45em) 100vw,
                     (max-width: 75em) 50vw,
                     33.3333vw"
-         src="@(defaultImagePath).jpg"
+         src="@(defaultImagePath).png"
          alt="@(alt)" />
 }
